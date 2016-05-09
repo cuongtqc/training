@@ -1,0 +1,126 @@
+@media screen and (min-width: 740px){
+	.header {
+		width: 100%;
+		height: auto;
+		margin: 2px 5px 5px 5px;
+		padding: 1px;
+		background: linear-gradient(to left bottom, green, white);
+	}
+
+	.coverImageHolder {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px double yellow;
+	}
+
+	.coverImage {
+		height: 250px;
+		width: 100%;
+	}
+
+	#logo > img{
+		width: 50px;
+		height: auto;
+		background-color: white;
+	}
+
+	.navbar {
+		background: (to top left, white, red);
+	}
+
+	[class*="btn"] {
+		width:100px;
+		padding: 10px;
+		background-color: blue;
+		color: white;
+		text-align: center;
+		display: block;
+	}
+
+	[class*="btn"]:hover {
+		background-color: magenta;
+		color: white;
+		
+	}
+
+	[class*="logo"] {
+		background-color: white !important;
+		border: 2px solid green;
+	}
+
+	[class*="left"] {
+		float: left;
+	}
+
+	[class*="right"] {
+		float: right;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover {
+		color: green;
+	}	
+}
+
+@media screen and (max-width: 739px){
+	.header {
+		width: 100%;
+		height: auto;
+		margin: 2px 5px 5px 5px;
+		padding: 1px;
+		background: linear-gradient(to left bottom, green, white);
+	}
+
+	.coverImageHolder {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px double yellow;
+	}
+
+	.coverImage {
+		height: 250px;
+		width: 100%;
+	}
+
+	#logo > img{
+		width: 50px;
+		height: auto;
+		background-color: white;
+		border: 1px solid orange;
+	}
+
+	[class*="btn"] {
+		width:100px;
+		padding: 10px;
+		background-color: blue;
+		color: white;
+		text-align: center;
+		display: block;
+	}
+
+	[class*="btn"]:hover {
+		background-color: magenta;
+		color: white;
+		float:none;
+	}
+
+	[class*="logo"] {
+		background-color: white !important;
+		border: 2px solid green;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover {
+		color: green;
+	}	
+}
