@@ -1,126 +1,316 @@
-@media screen and (min-width: 740px){
-	.header {
-		width: 100%;
-		height: auto;
-		margin: 2px 5px 5px 5px;
-		padding: 1px;
-		background: linear-gradient(to left bottom, green, white);
-	}
-
-	.coverImageHolder {
-		display: block;
-		width: 100%;
-		height: auto;
-		border: 1px double yellow;
-	}
-
-	.coverImage {
-		height: 250px;
-		width: 100%;
-	}
-
-	#logo > img{
-		width: 50px;
-		height: auto;
-		background-color: white;
-	}
-
-	.navbar {
-		background: (to top left, white, red);
-	}
-
-	[class*="btn"] {
-		width:100px;
-		padding: 10px;
-		background-color: blue;
-		color: white;
-		text-align: center;
-		display: block;
-	}
-
-	[class*="btn"]:hover {
-		background-color: magenta;
-		color: white;
-		
-	}
-
-	[class*="logo"] {
-		background-color: white !important;
-		border: 2px solid green;
-	}
-
-	[class*="left"] {
-		float: left;
-	}
-
-	[class*="right"] {
-		float: right;
-	}
-
-	a {
-		text-decoration: none;
-		color: white;
-	}
-
-	a:hover {
-		color: green;
-	}	
+body {
+	font-family: 'Open Sans';
+	margin : 0px;
 }
 
-@media screen and (max-width: 739px){
-	.header {
-		width: 100%;
-		height: auto;
-		margin: 2px 5px 5px 5px;
-		padding: 1px;
-		background: linear-gradient(to left bottom, green, white);
-	}
-
-	.coverImageHolder {
-		display: block;
-		width: 100%;
-		height: auto;
-		border: 1px double yellow;
-	}
-
-	.coverImage {
-		height: 250px;
-		width: 100%;
-	}
-
-	#logo > img{
-		width: 50px;
-		height: auto;
-		background-color: white;
-		border: 1px solid orange;
-	}
-
-	[class*="btn"] {
-		width:100px;
-		padding: 10px;
-		background-color: blue;
-		color: white;
-		text-align: center;
-		display: block;
-	}
-
-	[class*="btn"]:hover {
-		background-color: magenta;
-		color: white;
-		float:none;
-	}
-
-	[class*="logo"] {
-		background-color: white !important;
-		border: 2px solid green;
-	}
-
-	a {
-		text-decoration: none;
-		color: white;
-	}
-
-	a:hover {
-		color: green;
-	}	
+.container {
+	width: 100%;
+	height: auto;
+	padding: 2px 10px 2px 10px;
 }
+
+.head {
+	position:fixed;
+	top: 0px;
+	left:0px;
+	background: rgba(30,30,30,0.6);
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+
+/*Navigation bar*/
+.navbar {
+	width:92%;
+	padding-left: 4%;
+	padding-right: 4%;
+	height: 70px;
+}
+
+.holdernav {
+	width:100%;
+	height:70px;
+	background: rgba(244,244,244,1);
+}
+
+.logo {
+	display: inline-block;
+	background-image: url('savvycom-logo-small.png');
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+	height: 100%;
+	width: 182px;
+}
+
+.item {
+	display: inline-block;
+	margin: 0px 1px 0px 1px;
+	padding: 4px 0px 0px 0px;
+	font-size: 14px;
+}
+
+.item:hover {
+	background-color: #00ff00;
+}
+
+li[class *= "navbar"] {
+	display: inline-block;
+	list-style-type: none;
+	height: 65px;
+	min-width: 64px;
+	width: 104px;
+}
+
+li[class *= "navbar"] > a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 23px 0px 0px 0px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+li[class *= "navbar"] > a:hover {
+	background-color: #000000;
+}
+
+li[class *= "left"] {
+	float: left;
+}
+
+li[class *= "right"] {
+	float: right;
+}
+/*End Navigation bar*/
+
+.body {
+	padding-left: 16%;
+	padding-right: 16%;
+	width: 68%;
+	height: auto;
+}
+
+.cover-image {
+	
+	background-image: url('http://savvycomsoftware.com/wp-content/uploads/2013/07/anh5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 298px;
+	width: 100%;
+}
+
+.tabbar {
+	/*padding-left: 16%;*/
+	height: 40px;
+	width: auto;
+}
+
+.tabbar-item {
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	padding: 16px 10px 0px 10px;
+	height: 100%;
+	width: auto;
+}
+
+.tabbar-item:active {
+	background-color: gray;
+}
+
+/*article*/
+
+.article {
+	display:inline-block;
+	width: 100%;
+	margin-top: 80px;
+	height: auto;
+}
+
+.article-item-text {
+	
+	display: inline-block;
+	float: left;
+	width: 55%;
+	height: auto;
+}
+
+.article-item-text-title {
+	display: inline;
+	width: 100%;
+	height: 60px;
+	font-size: 30px;
+}
+
+.article-item-text-icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height:60px;
+	width: 60px;
+}
+.article-item-text-icon img{
+	display: inline-block;
+	background-image: url('crave-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height:60px;
+	width: 60px;
+}
+
+.article-item-text-paragraph {
+	width: 100%;
+	height: auto;
+	text-align: justify;
+}
+
+.article-item-image {
+	display: inline-block;
+	float: right;
+	width: 45%;
+	height: auto;
+}
+
+.big-image {
+	width: 100%;
+	height: auto;
+}
+
+div > img{
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+*[class *= "btn"] {
+	display: inline-block;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+}
+
+.btn-red {
+	display: block !important;
+	padding: 12px 10px 0px 10px;
+	height:30px;
+	float: left;
+}
+
+.btn-appstore {
+	display: block !important;
+	height: 65px;
+	float: left;
+	background-image: url('http://savvycomsoftware.com/wp-content/themes/savvycom/img/stores-button.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	background-color: white;
+	width:186px;
+
+}
+
+
+img {
+	display: block;
+}
+
+.all-logo {
+	height: 66px;
+	width: auto;
+	margin-top: 80px;
+}
+.all-logo > img{
+	height: inherit;
+	width: auto;
+
+}
+.all-logo::before {
+	line-height: 40px;
+	content: " ";
+}
+
+.footer {
+	display: inline-block;
+	padding: 0% 3% 0% 3%;
+	margin-top: 60px;
+	width: 94%;
+	height: auto;
+	background-color: #292828;
+}
+
+.footer > .navbar {
+	margin-top: 20px;
+	height: auto;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 94%;
+	display:block;
+}
+
+.footer > .navbar > a {
+	margin: 1px;
+}
+
+.footer > .navbar > a > .logo {
+	margin:0px;
+	height: 18px;
+	width: 145px;
+}
+
+.footer-menu {
+	display: inline-block;
+	float:left;
+	width: auto;
+	height: auto;
+}
+
+.footer-menu-label,  .footer-submenu {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.vn_flag {
+	background: url('http://savvycomsoftware.com/wp-content/plugins/qtranslate/flags/vn.png') no-repeat;
+	background-position: contain;
+	width: 18px;
+	height: 12px;
+	http://savvycomsoftware.com/wp-content/plugins/qtranslate/flags/gb.png
+}
+
+.gb_flag {
+	background: url('http://savvycomsoftware.com/wp-content/plugins/qtranslate/flags/gb.png') no-repeat;
+	background-position: contain;
+	width: 18px;
+	height: 12px;	
+}
+
+.jp_flag {
+	background: url('http://savvycomsoftware.com/wp-content/plugins/qtranslate/flags/jp.png') no-repeat;
+	background-position: contain;
+	width: 18px;
+	height: 12px;		
+}
+
+.not-list {
+	list-style-type: none;
+}
+
+a, p, span, strong {
+	line-height: 28px;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 425px){
+
+}
+
+	

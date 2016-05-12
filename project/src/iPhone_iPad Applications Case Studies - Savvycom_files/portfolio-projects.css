@@ -1,0 +1,542 @@
+@CHARSET "UTF-8";
+
+#main.portfolio-container {
+	position: relative;
+}
+#main.portfolio-container #sub-navigation {
+	position: absolute;
+	display: block;
+	width: 100%;
+	background: transparent !important;
+}
+.projects .project:first-child {
+	padding-top: 70px;
+}
+
+.project {
+	background-size: cover !important;
+}
+.project > .container-fluid > .row-fluid {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.project-container {
+	padding: 50px 20px;
+}
+#projects-container .project-title {
+	/* font-size: 32px; */
+	font-size: 40px;
+	font-weight: 400; 
+	/* font-weight: bold; */
+	text-transform: uppercase;
+    margin-bottom: 15px;
+	color: #2f2f2f;
+	margin-top: 50px;
+    line-height: 1.3;
+}
+#projects-container .project-desc, #projects-container .project-desc  p {
+	font-size: 20px;
+	color: #1d1d1d;
+	text-align: justify;
+	text-shadow: 1px 0 0 white;
+	line-height: 150%;
+}
+.project-desc .store-button {
+	text-indent: -9999px;
+	height: 65px;
+	width: 186px;
+	display: block;
+	margin-top: 36px;
+	background: transparent url(../img/stores-button.png) no-repeat left top;
+	background-size: 100% !important;
+	cursor: pointer;
+}
+.project-desc .store-button:focus {
+    outline: none;
+}
+.project-desc .store-button.appstore {
+	background-position: 0 0;
+}
+.project-desc .store-button.playstore {
+	background-position: 0 -65px;
+}
+.project-desc .store-button.website {
+	background-image: url(../img/website.png);
+}
+.project-desc .specific-business {
+	background: transparent url(../img/specific-business-intention.png) no-repeat center center;
+	background-size: 100% !important;
+	text-indent: -9999px;
+	height: 65px;
+	width: 200px;
+	margin-top: 36px;
+	display: block;
+}
+
+.project-desc .specific-business.transparent-image {
+	background-image: url(../img/specific-transparent.png)
+}
+
+.project-img {
+	max-height: 425px;
+}
+.project-img.project-img-large {
+	max-height: 510px;
+}
+.project-img.img-right {
+    float: right;
+    margin-right: 15%;
+}
+.project-img.img-left {
+	padding-left: 20px;
+}
+
+/* iPhone/iPad projects */
+.iphone-fruit-up {
+	background: transparent url(../img/portfolio/iphone-ipad/fruit-up-bg.jpg) no-repeat scroll center top;
+}
+.iphone-yield-costing {
+	background: transparent url(../img/portfolio/iphone-ipad/yield-costing-bg.jpg) no-repeat scroll center top;
+}
+.iphone-eva-diary {
+	background: transparent url(../img/portfolio/iphone-ipad/eva-diary-bg.jpg) no-repeat scroll center top;
+}
+.iphone-hotels-everywhere {
+	background: transparent url(../img/portfolio/iphone-ipad/hotels-everywhere-bg.jpg) no-repeat scroll center top;
+}
+.iphone-horses-caring {
+	background: transparent url(../img/portfolio/iphone-ipad/horses-caring-bg.jpg) no-repeat scroll center top;
+}
+.iphone-post-modern {
+	background: transparent url(../img/portfolio/iphone-ipad/post-modern-bg.jpg) no-repeat scroll center top;
+}
+.iphone-scriby {
+	background: transparent url(../img/portfolio/iphone-ipad/scriby-bg.jpg) no-repeat scroll center top;
+}
+.iphone-feedbackstr {
+	background: transparent url(../img/portfolio/iphone-ipad/feedbackstr-bg.jpg) no-repeat scroll center top;
+}
+.iphone-my-camp-mate {
+	background: transparent url(../img/portfolio/iphone-ipad/my-camp-mate-bg.jpg) no-repeat scroll center top;
+}
+.iphone-inspector {
+	background: transparent url(../img/portfolio/iphone-ipad/inspector-bg.jpg) no-repeat scroll center top;
+}
+.iphone-radio-sfm {
+	background: transparent url(../img/portfolio/iphone-ipad/radio-sfm-bg.jpg) no-repeat scroll center top;
+}
+.iphone-learning-management {
+	background: transparent url(../img/portfolio/iphone-ipad/learning-management-bg.jpg) no-repeat scroll center top;
+}
+
+.iphone-jio-health {
+    background: transparent url(../img/portfolio/iphone-ipad/jio-background.jpg) no-repeat scroll center top;
+}
+.iphone-iheart-local {
+	background: transparent url(../img/portfolio/iphone-ipad/iheartlocal-bg.jpg) no-repeat scroll center top;
+}
+
+.iphone-pdf-japan {
+	background: transparent url(../img/portfolio/iphone-ipad/pdf-japan-bg.jpg) no-repeat scroll center top;
+}
+.project-img-wrap.lower-image {
+	margin-top: 30px;
+}
+
+#projects-container .project-desc.smaller-text p {
+	font-size: 16px;
+}
+
+#projects-container .project-desc.smaller-text ul li{
+	font-size: 16px;
+	font-weight: 400;
+	list-style: circle;
+}
+
+#projects-container .project-title.project-title-with-icon{
+	font-size: 40px;
+	font-weight: 400;
+	border-bottom: 1px solid #ddd;
+	line-height: 60px;
+	padding-bottom: 10px;
+}
+.case-study {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 10px;
+}
+.iphone-jio-health .case-study {
+	background-color: #68CFC5;
+}
+
+.iphone-crave-pass .case-study, .iphone-crave-vend .case-study{
+	background-color: #971010;
+}
+
+.iphone-iheart-local .case-study {
+	background-color: #D94439;
+}
+
+.iphone-iheart-local .case-study:hover {
+	color: #D94439;
+	background-color: #fff; 
+	text-decoration: none;
+}
+
+.iphone-jio-health .case-study:hover {
+	color: #68CFC5;
+	background-color: #fff; 
+	text-decoration: none;
+}
+
+
+.iphone-crave-pass .case-study:hover, .iphone-crave-vend .case-study:hover {
+	color: #971010;
+	background-color: #fff; 
+	text-decoration: none;
+}
+
+.iphone-pdf-japan .case-study {
+	color: #fff;
+	background-color: #39A0C5;
+	text-decoration: none;
+}
+
+.iphone-pdf-japan .case-study:hover {
+	color: #39A0C5;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.project-title img {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+	border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+}
+
+.iphone-crave-pass, .iphone-crave-vend {
+	background: transparent url(../img/portfolio/iphone-ipad/crave-pas-bg.jpg) no-repeat scroll center top;
+}
+
+/* Android projects */
+.android-feedbackstr {
+	background: transparent url(../img/portfolio/android/feedbackstr-bg.jpg) no-repeat scroll center top;
+}
+.android-city-tour {
+	background: transparent url(../img/portfolio/android/city-tour-bg.jpg) no-repeat scroll center top;
+}
+.android-task-management {
+	background: transparent url(../img/portfolio/android/task-management-bg.jpg) no-repeat scroll center top;
+}
+.android-metro-fm {
+	background: transparent url(../img/portfolio/android/metro-fm-bg.jpg) no-repeat scroll center top;
+}
+
+/* Web projects */
+.web-shop-by {
+	background: transparent url(../img/portfolio/web/shop-by-bg.jpg) no-repeat scroll center top;
+}
+.web-bridge {
+	background: transparent url(../img/portfolio/web/bridge-bg.jpg) no-repeat scroll center top;
+}
+.web-scriby {
+	background: transparent url(../img/portfolio/web/scriby-bg.jpg) no-repeat scroll center top;
+}
+.web-oxi {
+	background: transparent url(../img/portfolio/web/oxi-bg.jpg) no-repeat scroll center top;
+}
+.web-innolab {
+	background: transparent url(../img/portfolio/web/innolab-bg.jpg) no-repeat scroll center top;
+}
+.web-ratechex {
+	background: transparent url(../img/portfolio/web/ratechex-bg.jpg) no-repeat scroll center top;
+}
+.web-complaint {
+	background: transparent url(../img/portfolio/web/complaint-bg.jpg) no-repeat scroll center top;
+}
+.web-scout {
+	background: transparent url(../img/portfolio/web/scout-bg.jpg) no-repeat scroll center top;
+}
+.web-referatruck {
+	background: transparent url(../img/portfolio/web/referatruck-bg.jpg) no-repeat scroll center top;
+}
+.web-biztag {
+	background: transparent url(../img/portfolio/web/biztag-bg.jpg) no-repeat scroll center top;
+}
+
+.vnese-human-genome {
+    background: transparent url(../img/portfolio/web/human-genome-bg.png) no-repeat scroll center top;
+}
+#projects-container .vnese-human-genome .project-desc p{
+	font-size: 16px;
+}
+
+.project-title.title-left, .project-desc.desc-left {
+    margin-left: 3%;
+    float: left;
+    width: 55%;
+}
+
+.web-project .project-title.title-left, .web-project  .project-desc.desc-left,
+.web-project .project-title.title-right, .web-project  .project-desc.desc-right {
+	width: 46%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#projects-container .web-project .project-title.project-title-with-icon {
+	font-size: 35px;
+	line-height: 150%;
+}
+
+.web-project .project-img-wrap.img-wrap-left,
+.web-project .project-img-wrap.img-wrap-right {
+	width: 50%;
+}
+
+.web-project .lower-image {
+	margin-top: 60px;
+}
+
+.web-project .project-img-wrap img {
+	margin: 0;
+}
+
+.project-title.title-right, .project-desc.desc-right {
+    margin-right: 3%;
+    float: right;
+    width: 55%;
+}
+.project-img-wrap {
+	overflow-y: hidden;
+}
+.project-img-wrap.img-wrap-left {
+    /* margin-left: 10%; */
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.project-img-wrap.img-wrap-right {
+    /* margin-right: 10%; */
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+.three-col .project-img-wrap.img-wrap-left {
+    width: 27.5%;
+    margin-left: 0;
+}
+.three-col .project-img-wrap.img-wrap-right {
+    width: 27.5%;
+    margin-right: 0;
+}
+.three-col .project-img-wrap.img-wrap-left .project-img {
+    float: right;
+}
+.three-col .project-img-wrap.img-wrap-right .project-img {
+    float: left;
+}
+.three-col .project-title.title-left, .three-col .project-desc.desc-left, .three-col .project-title.title-right, .three-col .project-desc.desc-right {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 35%;
+}
+.three-col .project-title.title-left, .three-col .project-title.title-right {
+    clear: none;
+}
+.project.three-col .project-desc .store-button, .project.three-col .project-desc .specific-business {
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-desc p {
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .project-2-img .project-img-wrap.img-wrap-left {
+        margin-left: 0;
+        width: 60%;
+    }
+    .project-2-img .project-title.title-left, .project-2-img .project-desc.desc-left {
+        width: 35%;
+    }
+    .project-2-img .project-img-wrap.img-wrap-right {
+        margin-right: 0;
+        width: 60%;
+    }
+    .project-2-img .project-title.title-right, .project-2-img .project-desc.desc-right {
+        width: 35%;
+    }
+    .project-title.title-small {
+        font-size: 30px;
+    }
+}
+@media (min-width: 979px) {
+    .android-city-tour .project-title, .android-city-tour .project-desc {
+        margin-left: 2.5% !important;
+        margin-right: 2.5% !important;
+        width: 40% !important;
+    }
+    .android-city-tour .project-title {
+        font-size: 30px;
+    }
+    .project[class*=" web-"] .project-title, .project[class^="web-"] .project-title {
+        margin-top: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .android-city-tour .project-title, .android-city-tour .project-desc {
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+        width: 43% !important;
+    }
+    .android-city-tour .project-title {
+        font-size: 25px;
+    }
+    .android-city-tour .project-desc {
+        font-size: 18px;
+    }
+    .android-task-management .project-title {
+        font-size: 24px;
+    }
+    .project[class*=" web-"] .project-title, .project[class^="web-"] .project-title {
+        font-size: 26px;
+    	margin-top: 10px !important;
+    }
+}
+@media (max-width: 767px) {
+	#projects-container .project-desc.smaller-text {
+		margin-top: 0;
+		width: 100%;
+	}
+	#projects-container .project-desc.smaller-text p{
+		font-size: 14px;
+	}
+	#projects-container .project-img-wrap.img-wrap-right {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.web-project .project-title.title-left, .web-project .project-desc.desc-left, .web-project .project-title.title-right, .web-project .project-desc.desc-right {
+		width: 100%; 
+	}
+	.web-project .project-img-wrap.img-wrap-left, .web-project .project-img-wrap.img-wrap-right {
+		width: 100%;
+	}
+    .project > .container-fluid > .row-fluid {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .project-title, .project-title.title-left, .project-title.title-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 20px !important;
+        padding: 0;
+        font-size: 25px;
+    }
+    .project-desc, .project-desc.desc-left, .project-desc.desc-right {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    .project-img + .project-desc {
+        margin-top: 20px;
+    }
+    .project-img-wrap.img-wrap-left, .project-img-wrap.img-wrap-right {
+        margin: 0;
+        padding: 0;
+    }
+    .three-col .project-title.title-left, .three-col .project-desc.desc-left, .three-col .project-title.title-right, .three-col .project-desc.desc-right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .three-col .project-title.title-left, .three-col .project-title.title-right {
+        width: 100%;
+    }
+    .project.three-col .project-desc .store-button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .project[class*=" web-"] .project-img.visible-phone, .project[class^="web-"] .project-img.visible-phone {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-height: 300px;
+    }
+    .project[class*=" web-"] .project-desc, .project[class^="web-"] .project-desc {
+        font-size: 16px;
+    }
+/*	.project[class*=" web-"] .project-title, .project[class^="web-"] .project-title {
+        margin-top: 10px !important;
+    }*/
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .project > .container-fluid {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .project-desc.desc-left, .project-desc.desc-right {
+        margin-top: 20px;
+        width: 55%;
+        font-size: 16px;
+    }
+    .project-img-wrap.img-wrap-left, .project-img-wrap.img-wrap-right,
+    .three-col .project-img-wrap.img-wrap-left, .three-col .project-img-wrap.img-wrap-right {
+        width: 40%;
+    }
+    .three-col .project-desc.desc-left, .three-col .project-desc.desc-right {
+        width: 55%;
+    }
+}
+@media (max-width: 479px) {
+    .project > .container-fluid {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .project-desc.desc-left, .project-desc.desc-right {
+        margin-top: 15px;
+        width: 48%;
+        font-size: 15px;
+    }
+    .three-col .project-desc.desc-left, .three-col .project-desc.desc-right {
+        width: 47%;
+    	margin-left: 10px;
+    }
+    .project-desc p {
+        margin-bottom: 5px;
+    }
+    .project-img-wrap.img-wrap-left, .project-img-wrap.img-wrap-right,
+    .three-col .project-img-wrap.img-wrap-left, .three-col .project-img-wrap.img-wrap-right {
+        width: 48%;
+    }
+    .project .project-desc .store-button {
+        width: 120px;
+        height: 41px;
+        margin-top: 20px;
+    }
+    .project .project-desc .store-button.playstore {
+        background-position: 0 -42px;
+    }
+    .project .project-desc .specific-business {
+        width: 144px;
+        height: 35px;
+        margin-top: 20px;
+    }
+    .android-city-tour .project-title {
+        font-size: 23px;
+    }
+    .android-city-tour .project-desc {
+        margin-top: 0;
+    }
+}
